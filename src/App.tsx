@@ -12,9 +12,9 @@ interface Props{
         <div className="bg-black absolute inset-0">
 
         <List pno={page} />
-        <div className=" mx-16 sm:mx-0
+        <div className=" mx-8 sm:mx-0
          grid grid-cols-1 sm:grid-cols-4  items-center gap-2 bg-red">
-        <button className="text-xl text-white bg-red-400 rounded-full border-8 border-white hover:bg-red-300 hover:text-black my-3 sm:col-start-2 py-2   " onClick ={()=>{setPage(page+1)}}>
+        <button className="text-xl text-white bg-red-400 rounded-full border-8 my-3 sm:col-start-2 py-2  border-white hover:bg-red-300 hover:text-black  " onClick ={()=>{setPage(page+1)}}>
           Next Page
         </button>
         <button className="sm:my-5 py-2   text-xl text-white bg-green-400  border-8 rounded-full hover:text-black border-white hover:bg-green-300" onClick ={()=>{
